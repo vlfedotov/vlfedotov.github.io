@@ -1,0 +1,35 @@
+.showcase {
+}
+
+.showcase__cycle {
+    position: relative;
+}
+
+.showcase__background {
+    position: absolute;
+    margin: 0;
+    top: 55px;
+    width: 100%;
+    max-height: 100vh;
+    z-index: 999;
+    background-color: #000;
+    opacity: 0.5;
+}
+
+.showcase__img {
+    width: 100%;
+    max-height: 100vh;
+    position: absolute;
+}
+
+.showcase__caption {
+    text-transform: uppercase;
+    z-index: 1000;
+    top: 50%;
+    width: 100%;
+    max-height: 100vh;
+    font-size: 300%;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+}

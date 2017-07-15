@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/general.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/header.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/showcase.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/projects.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/footer.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="http://malsup.github.com/jquery.cycle2.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+    <title>AnVoGames</title>
+</head>
+<body>
+    <header class="header">
+        <div class="row">
+            <div class="header__logo">AnVoGames</div>
+            <div class="header__nav">
+                <ul class="header__list">
+                    <li class="header__li"><a class="header__link" href="#about">About Us</a></li>
+                    <li class="header__li"><a class="header__link" href="#projects">Projects</a></li>
+                    <li class="header__li"><a class="header__link" href="#assets">Assets</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="showcase">
+        <div class="showcase__cycle cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-pause-on-hover="false" data-cycle-speed="1000"
+             data-cycle-caption="#alt-caption" data-cycle-caption-template="{{alt}}">
+            <img class="showcase__img" src="resources/images/asteroids.gif" alt="2D Game Dev">
+            <img class="showcase__img" src="resources/images/BabaYaga.gif" alt="Modelling">
+            <img class="showcase__img" src="resources/images/babayaga_cabin.gif" alt="3D Game Dev">
+            <img class="showcase__img" src="resources/images/Frightzone.gif" alt="Animation">
+        </div>
+        <div class="center showcase__caption" id="alt-caption"></div>
+        <div class="showcase__background"></div>
+    </div>
+<!--
+    <div class="about">
+        <div class="row section-about">About Us</div>
+        <div class="row"></div>
+        <div class="row">
+            
+        </div>
+    </div>
+-->
+    <div class="section projects">
+        <div class="section__title">Projects</div>
+        <div class="projects__list">
+            <div class="projects__item">
+                <div class="projects__title"><a class="projects__link">Asteroids</a></div>
+                <div class="projects__description">game, classic 2d-game</div>
+                <div class="projects__img"><img class="projects__img" src="resources/images/asteroids.png" alt="Asteroids Game"></div>
+                <div class="projects__tech">Tech: Love2d, Lua</div>
+                <div class="projects__date">May, 2017</div>
+            </div>
+            <div class="projects__item">
+                <div class="projects__title">Forest Adventure</div>
+                <div class="projects__description">game, 3d first-person-adventure</div>
+                <div class="projects__img"><img class="projects__img" src="resources/images/babayaga_cabin.png"
+                                                alt="Forest Adventure Game"></div>
+                <div class="projects__tech">Tech: Unity, Zbrush</div>
+                <div class="projects__date">June, 2017</div>
+            </div>
+            <div class="projects__item">
+                <div class="projects__title">Modelling</div>
+                <div class="projects__description">lalal</div>
+                <div class="projects__img"><img class="projects__img" src="resources/images/Door.png" alt="Baba Yaga door"></div>
+                <div class="projects__tech">Tech: ZBrush</div>
+                <div class="projects__date">July, 2017</div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+    
+    </footer>
+</body>
+</html>

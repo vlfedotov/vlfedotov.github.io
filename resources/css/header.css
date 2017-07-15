@@ -1,0 +1,31 @@
+.header {
+    background-color: #444;
+    height: 55px;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header__logo {
+    font-weight: 400;
+    font-size: 150%;
+}
+
+.header__nav {
+    width: 300px;
+}
+
+.header__list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.header__link:link, .header__link:visited {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s;
+}
+
+.header__link:hover, .header__link:active {
+    color: #ddd;
+}

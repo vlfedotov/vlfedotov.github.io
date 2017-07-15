@@ -1,0 +1,54 @@
+.projects {
+    background-color: #fff;
+}
+
+.projects__list {
+    display: flex;
+}
+
+.projects__item {
+    margin: 15px;
+/*    padding: 10px;*/
+    border-radius: 3px;
+    border: 1px solid #101010;
+    font-size: 80%;
+}
+
+.projects__title {
+    font-weight: 400;
+    font-size: 115%;
+}
+
+.projects__description, .projects__tech, .projects__title {
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.projects__img {
+    width: 275px;
+    height: 200px;
+}
+
+.projects__date {
+    text-align: right;
+    
+}
+
+/*
+.projects__tech {
+    font-size: 80%;
+}
+*/
+
+/*
+.projects__description {
+    font-size: 80%;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}
+
+.projects__description {
+    font-size: 80%;
+    margin-bottom: 2px;
+    margin-left: 5px;
+}*/
