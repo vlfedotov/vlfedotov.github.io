@@ -8,7 +8,6 @@
 
 .projects__item {
     margin: 15px;
-/*    padding: 10px;*/
     border-radius: 3px;
     border: 1px solid #101010;
     font-size: 80%;
@@ -31,24 +30,6 @@
 
 .projects__date {
     text-align: right;
-    
+    margin-right: 5px;
 }
 
-/*
-.projects__tech {
-    font-size: 80%;
-}
-*/
-
-/*
-.projects__description {
-    font-size: 80%;
-    margin-bottom: 2px;
-    margin-left: 5px;
-}
-
-.projects__description {
-    font-size: 80%;
-    margin-bottom: 2px;
-    margin-left: 5px;
-}*/
