@@ -18,12 +18,27 @@
     font-size: 115%;
 }
 
+.projects__link {
+    display: inline-block;
+}
+
+.projects__link:link, .projects__link:visited {
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid transparent;
+}
+
+.projects__link:hover, .projects__link:active {
+    border-bottom: 1px solid;
+}
+
 .projects__description, .projects__tech, .projects__title {
     margin-bottom: 2px;
     margin-left: 5px;
 }
 
 .projects__img {
+    margin: 5px 0;
     width: 275px;
     height: 200px;
 }
