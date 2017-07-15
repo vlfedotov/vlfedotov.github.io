@@ -29,6 +29,9 @@
 .projects__description, .projects__tech, .projects__title {
     margin-bottom: 2px;
     margin-left: 5px;
+}
+
+.projects__description, .projects__tech {
     font-size: 80%;
 }
 
