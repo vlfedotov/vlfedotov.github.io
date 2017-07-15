@@ -10,12 +10,6 @@
     margin: 15px;
     border-radius: 3px;
     border: 1px solid #101010;
-    font-size: 80%;
-}
-
-.projects__title {
-    font-weight: 400;
-    font-size: 115%;
 }
 
 .projects__link {
@@ -35,6 +29,12 @@
 .projects__description, .projects__tech, .projects__title {
     margin-bottom: 2px;
     margin-left: 5px;
+    font-size: 80%;
+}
+
+.projects__title {
+    font-weight: 400;
+    font-size: 115%;
 }
 
 .projects__img {
